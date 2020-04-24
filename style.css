@@ -1,5 +1,6 @@
 body {
     margin: auto 0;
+    font-family: Arial;
 }
 
 .zone {
@@ -22,6 +23,11 @@ body {
 }
 
 /* NAV */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 .main-nav {
     display: flex;
     list-style: none;
@@ -61,6 +67,10 @@ a {
     height: 50vh;
 }
 
+.cover {
+    width: 20rem;
+}
+
 /* GRID */
 .grid-wrapper {
     display: grid;
@@ -86,13 +96,13 @@ footer {
  *  Green Background
  **********************************************************************/
 .green{
-    background: #56B870; /* Old browsers */
-    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
-    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+    background: #132848; /* Old browsers */
+    background: -moz-linear-gradient(top, #132848 0%, #4b27ff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#132848), color-stop(100%,#4b27ff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #132848 0%,#4b27ff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #132848 0%,#4b27ff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #132848 0%,#4b27ff 100%); /* IE10+ */
+    background: linear-gradient(top, #132848 0%,#4b27ff 100%); /* W3C */
 }
 
 /***********************************************************************
